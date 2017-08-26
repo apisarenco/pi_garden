@@ -1,0 +1,1074 @@
+<project folioSheetQuantity="0" title="" version="0.5">
+    <properties/>
+    <newdiagrams>
+        <border displaycols="true" rowsize="80" colsize="60" displayrows="true" rows="8" cols="17"/>
+        <inset date="null" filename="" title="" author="" displayAt="bottom" folio="%id/%total"/>
+        <conductors function="" type="multi" horizrotatetext="0" tension-protocol="" numsize="7" onetextperfolio="0" displaytext="1" vertirotatetext="270" num="_"/>
+        <report label="%f-%l%c"/>
+        <xrefs>
+            <xref displayhas="cross" switchprefix="" type="protection" snapto="label" powerprefix="" showpowerctc="false" delayprefix=""/>
+            <xref displayhas="cross" switchprefix="" type="commutator" snapto="label" powerprefix="" showpowerctc="false" delayprefix=""/>
+            <xref displayhas="cross" switchprefix="" type="coil" snapto="label" powerprefix="" showpowerctc="false" delayprefix=""/>
+        </xrefs>
+        <conductors_autonums/>
+    </newdiagrams>
+    <diagram date="null" filename="" displaycols="true" title="" rowsize="80" author="" colsize="60" version="0.5" displayrows="true" displayAt="bottom" rows="8" height="660" order="1" folio="%id/%total" cols="17">
+        <defaultconductor function="" type="multi" horizrotatetext="0" tension-protocol="" numsize="7" onetextperfolio="0" displaytext="1" vertirotatetext="270" num="_"/>
+        <elements>
+            <element type="embed://import/20_logic/30_ladder/21_outputs/sortie.elmt" x="220" orientation="2" uuid="{cc7c406c-cc61-4734-bc37-01d571915a15}" y="230">
+                <terminals>
+                    <terminal nameHidden="0" x="-20" name="_" number="_" orientation="3" id="0" y="0"/>
+                </terminals>
+                <inputs>
+                    <input text="5V" usery="30" x="-23" userrotation="180" y="-10.5" userx="10"/>
+                </inputs>
+                <elementInformations>
+                    <elementInformation name="comment" show="1">Raspberry Pi</elementInformation>
+                    <elementInformation name="label" show="1">5V</elementInformation>
+                </elementInformations>
+            </element>
+            <element type="embed://import/20_logic/30_ladder/21_outputs/sortie.elmt" x="220" orientation="2" uuid="{45695277-1049-4c79-91d9-4f1dadc25260}" y="320">
+                <terminals>
+                    <terminal nameHidden="0" x="-20" name="_" number="_" orientation="3" id="1" y="0"/>
+                </terminals>
+                <inputs>
+                    <input text="GPIO Pin" usery="30" x="-23" userrotation="180" y="-10.5" userx="30"/>
+                </inputs>
+                <elementInformations>
+                    <elementInformation name="comment" show="1">Raspberry Pi</elementInformation>
+                    <elementInformation name="label" show="1">GPIO Pin</elementInformation>
+                </elementInformations>
+            </element>
+            <element type="embed://import/20_logic/30_ladder/21_outputs/sortie.elmt" x="580" orientation="0" uuid="{ff59d36d-f321-449d-8697-989db6a266e4}" y="230">
+                <terminals>
+                    <terminal nameHidden="0" x="-20" name="_" number="_" orientation="3" id="2" y="0"/>
+                </terminals>
+                <inputs>
+                    <input text="VCC 5V" usery="0" x="-23" y="-10.5" userx="20"/>
+                </inputs>
+                <elementInformations>
+                    <elementInformation name="comment" show="1">Relay Module</elementInformation>
+                    <elementInformation name="label" show="1">VCC 5V</elementInformation>
+                </elementInformations>
+            </element>
+            <element type="embed://import/20_logic/30_ladder/21_outputs/sortie.elmt" x="580" orientation="0" uuid="{d36a388c-a0a9-4220-aa07-df3d6f7dbfc5}" y="350">
+                <terminals>
+                    <terminal nameHidden="0" x="-20" name="_" number="_" orientation="3" id="3" y="0"/>
+                </terminals>
+                <inputs>
+                    <input text="GND" usery="0" x="-23" y="-10.5" userx="30"/>
+                </inputs>
+                <elementInformations>
+                    <elementInformation name="comment" show="1">Relay Module</elementInformation>
+                    <elementInformation name="label" show="1">GND</elementInformation>
+                </elementInformations>
+            </element>
+            <element type="embed://import/20_logic/30_ladder/21_outputs/sortie.elmt" x="580" orientation="0" uuid="{9724c097-4085-4e23-8085-15914f37234f}" y="290">
+                <terminals>
+                    <terminal nameHidden="0" x="-20" name="_" number="_" orientation="3" id="4" y="0"/>
+                </terminals>
+                <inputs>
+                    <input text="IN" usery="0" x="-23" y="-10.5" userx="40"/>
+                </inputs>
+                <elementInformations>
+                    <elementInformation name="comment" show="1">Relay Module</elementInformation>
+                    <elementInformation name="label" show="1">IN</elementInformation>
+                </elementInformations>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/395_electronics&amp;semiconductors/12_transistors/transistor_npn.elmt" x="440" orientation="0" uuid="{95ea9245-486d-4ce0-8456-4d399c653127}" y="320">
+                <terminals>
+                    <terminal nameHidden="0" x="10" name="_" number="_" orientation="0" id="5" y="-17"/>
+                    <terminal nameHidden="0" x="10" name="_" number="_" orientation="2" id="6" y="17"/>
+                    <terminal nameHidden="0" x="-17" name="_" number="_" orientation="3" id="7" y="0"/>
+                </terminals>
+                <inputs>
+                    <input text="2N2222" usery="0" x="12" y="-1.45" userx="10"/>
+                </inputs>
+                <elementInformations>
+                    <elementInformation name="label" show="1">2N2222</elementInformation>
+                </elementInformations>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/110_network_supplies/terre.elmt" x="320" orientation="0" uuid="{4f4f7c7c-bb95-42c5-b665-d87ec0f7f22d}" y="440">
+                <terminals>
+                    <terminal nameHidden="0" x="0" name="_" number="_" orientation="0" id="8" y="-7"/>
+                </terminals>
+                <inputs>
+                    <input text="GND" usery="20" x="2" y="-11.5" userx="-20"/>
+                </inputs>
+                <elementInformations>
+                    <elementInformation name="comment" show="1">Raspberry Pi</elementInformation>
+                    <elementInformation name="label" show="1">GND</elementInformation>
+                </elementInformations>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/395_electronics&amp;semiconductors/01_resistors/resistance.elmt" x="370" orientation="1" uuid="{22300999-c285-432b-826b-c9db43b6216d}" y="320">
+                <terminals>
+                    <terminal nameHidden="0" x="0" name="_" number="_" orientation="2" id="9" y="17"/>
+                    <terminal nameHidden="0" x="0" name="_" number="_" orientation="0" id="10" y="-17"/>
+                </terminals>
+                <inputs>
+                    <input text="2.2k" usery="20" x="6" userrotation="270" y="0" userx="-10"/>
+                </inputs>
+                <elementInformations>
+                    <elementInformation name="label" show="1">2.2k</elementInformation>
+                </elementInformations>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/395_electronics&amp;semiconductors/01_resistors/resistance.elmt" x="320" orientation="0" uuid="{adf82ad3-023c-4cb3-91d2-c9e3b9c3b297}" y="370">
+                <terminals>
+                    <terminal nameHidden="0" x="0" name="_" number="_" orientation="2" id="11" y="17"/>
+                    <terminal nameHidden="0" x="0" name="_" number="_" orientation="0" id="12" y="-17"/>
+                </terminals>
+                <inputs>
+                    <input text="10k" usery="0" x="6" y="0" userx="0"/>
+                </inputs>
+                <elementInformations>
+                    <elementInformation name="label" show="1">10k</elementInformation>
+                </elementInformations>
+            </element>
+        </elements>
+        <conductors>
+            <conductor terminal1="2" terminal2="0" function="" type="multi" horizrotatetext="0" tension-protocol="" numsize="7" onetextperfolio="0" x="0" displaytext="0" vertirotatetext="270" num="_" y="0"/>
+            <conductor terminal1="1" terminal2="9" function="" type="multi" horizrotatetext="0" usery="370" tension-protocol="" numsize="7" onetextperfolio="0" x="0" displaytext="0" vertirotatetext="270" num="_" y="0" userx="260"/>
+            <conductor terminal1="3" terminal2="6" function="" type="multi" horizrotatetext="0" tension-protocol="" numsize="7" onetextperfolio="0" x="0" displaytext="0" vertirotatetext="270" num="_" y="0"/>
+            <conductor terminal1="5" terminal2="4" function="" type="multi" horizrotatetext="0" tension-protocol="" numsize="7" onetextperfolio="0" x="0" displaytext="0" vertirotatetext="270" num="_" y="0"/>
+            <conductor terminal1="8" terminal2="6" function="" type="multi" horizrotatetext="0" tension-protocol="" numsize="7" onetextperfolio="0" x="0" displaytext="0" vertirotatetext="270" num="_" y="0">
+                <segment length="-9" orientation="vertical"/>
+                <segment length="-20" orientation="vertical"/>
+                <segment length="130" orientation="horizontal"/>
+                <segment length="-50" orientation="vertical"/>
+                <segment length="-9" orientation="vertical"/>
+            </conductor>
+            <conductor terminal1="7" terminal2="10" function="" type="multi" horizrotatetext="0" tension-protocol="" numsize="7" onetextperfolio="0" x="0" displaytext="0" vertirotatetext="270" num="_" y="0"/>
+            <conductor terminal1="8" terminal2="11" function="" type="multi" horizrotatetext="0" tension-protocol="" numsize="7" onetextperfolio="0" x="0" displaytext="0" vertirotatetext="270" num="_" y="0"/>
+            <conductor terminal1="9" terminal2="12" function="" type="multi" horizrotatetext="0" usery="320" tension-protocol="" numsize="7" onetextperfolio="0" x="0" displaytext="0" vertirotatetext="270" num="_" y="0" userx="290"/>
+        </conductors>
+    </diagram>
+    <collection>
+        <category name="import">
+            <names>
+                <name lang="es">Elementos importados</name>
+                <name lang="cs">Zavedené prvky</name>
+                <name lang="ro">Elemente importate</name>
+                <name lang="ca">Elements importats</name>
+                <name lang="fr">Éléments importés</name>
+                <name lang="pt">elementos importados</name>
+                <name lang="de">Importierte elemente</name>
+                <name lang="en">Imported elements</name>
+                <name lang="ru">Импортированные элементы</name>
+                <name lang="nl">Elementen geïmporteerd</name>
+                <name lang="el">Εισηγμένα στοιχεία</name>
+                <name lang="it">Elementi importati</name>
+                <name lang="pl">Elementy importowane</name>
+                <name lang="hr">Uvezeni elementi</name>
+            </names>
+            <category name="10_electric">
+                <names>
+                    <name lang="cs">Elektrotechnika</name>
+                    <name lang="fr">Electrique</name>
+                    <name lang="de">Elektrik</name>
+                    <name lang="en">Electric</name>
+                    <name lang="ru">Электротехника</name>
+                    <name lang="nl">Elektrotechniek</name>
+                    <name lang="el">Ηλεκτρικά</name>
+                    <name lang="it">Elettrica</name>
+                    <name lang="pl">Elektrotechnika</name>
+                </names>
+                <category name="10_allpole">
+                    <names>
+                        <name lang="cs">Vícežilový</name>
+                        <name lang="fr">Multifilaire</name>
+                        <name lang="de">Allpolig</name>
+                        <name lang="en">All-pole</name>
+                        <name lang="nl">Veel polig</name>
+                        <name lang="ru">Многополюсные</name>
+                        <name lang="el">Πολυγραμμικό</name>
+                        <name lang="it">Multifilare</name>
+                        <name lang="pl">Schematy wieloliniowe</name>
+                    </names>
+                    <category name="395_electronics&amp;semiconductors">
+                        <names>
+                            <name lang="fr">Electronique et semi-conducteurs</name>
+                            <name lang="de">Elektronik und Halbleiter</name>
+                            <name lang="en">Electronics and semiconductors</name>
+                            <name lang="ru">Электроника и полупроводники</name>
+                            <name lang="nl">Electronica en halfgeleiders</name>
+                            <name lang="el">Ηλεκτρονικά και ημιαγωγοί</name>
+                            <name lang="it">Elettronica e semiconduttori</name>
+                            <name lang="pl">Elektronika i półprzewodniki</name>
+                        </names>
+                        <category name="01_resistors">
+                            <names>
+                                <name lang="es">Resistencia</name>
+                                <name lang="cs">Odporník</name>
+                                <name lang="fr">Résistances</name>
+                                <name lang="pt">Resistência</name>
+                                <name lang="de">Widerstände</name>
+                                <name lang="ar">مُقاومة</name>
+                                <name lang="en">Resistors</name>
+                                <name lang="ru">Резисторы</name>
+                                <name lang="nl">Weerstand</name>
+                                <name lang="el">Αντιστάσεις</name>
+                                <name lang="it">Resistori</name>
+                                <name lang="pl">Rezystory</name>
+                            </names>
+                            <element name="resistance.elmt">
+                                <definition width="20" type="element" link_type="simple" hotspot_x="10" version="0.5" hotspot_y="29" orientation="dyyy" height="60">
+                                    <uuid uuid="{af30335a-4d6f-4d8c-a3a5-60c5e1d43dc7}"/>
+                                    <names>
+                                        <name lang="el">Αντίσταση</name>
+                                        <name lang="fr">Résistance</name>
+                                        <name lang="de">Widerstand</name>
+                                        <name lang="cs">Odporník</name>
+                                        <name lang="ru">Резистор</name>
+                                        <name lang="es">Resistencia</name>
+                                        <name lang="ar">مُقاومة</name>
+                                        <name lang="it">Resistore</name>
+                                        <name lang="pl">Rezystor</name>
+                                        <name lang="en">Resistor</name>
+                                        <name lang="pt">Resistência</name>
+                                        <name lang="nl">Weerstand</name>
+                                    </names>
+                                    <informations>EN 60617: 04-01-01</informations>
+                                    <description>
+                                        <line end2="none" antialias="false" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" length1="1.5" end1="none" y1="-10" y2="-20" x1="0"/>
+                                        <line end2="none" antialias="false" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" length1="1.5" end1="none" y1="10" y2="20" x1="0"/>
+                                        <line end2="none" antialias="false" x2="4" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" length1="1.5" end1="none" y1="10" y2="-10" x1="4"/>
+                                        <line end2="none" antialias="false" x2="4" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" length1="1.5" end1="none" y1="10" y2="10" x1="-4"/>
+                                        <line end2="none" antialias="false" x2="-4" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" length1="1.5" end1="none" y1="-10" y2="-10" x1="4"/>
+                                        <line end2="none" antialias="false" x2="-4" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" length1="1.5" end1="none" y1="-10" y2="10" x1="-4"/>
+                                        <input text="_" size="9" rotate="true" x="6" tagg="label" y="0"/>
+                                        <terminal x="0" orientation="s" y="21"/>
+                                        <terminal x="0" orientation="n" y="-21"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                        <category name="12_transistors">
+                            <names>
+                                <name lang="cs">Tranzistor</name>
+                                <name lang="fr">Transistors</name>
+                                <name lang="de">Transistoren</name>
+                                <name lang="ar">ترنزيستور</name>
+                                <name lang="en">Transistors</name>
+                                <name lang="nl">Transistor</name>
+                                <name lang="ru">Транзисторы</name>
+                                <name lang="el">Τρανζίστορ</name>
+                                <name lang="it">Transistor</name>
+                                <name lang="pl">Tranzystory</name>
+                            </names>
+                            <element name="transistor_npn.elmt">
+                                <definition width="40" type="element" link_type="simple" hotspot_x="25" version="0.5" hotspot_y="29" orientation="dyyy" height="60">
+                                    <uuid uuid="{d9b988d0-5dd2-49df-9192-104c497222dc}"/>
+                                    <names>
+                                        <name lang="de">NPN Transistor</name>
+                                        <name lang="el">Τρανζίστορ NPN</name>
+                                        <name lang="pl">Tranzystor NPN</name>
+                                        <name lang="ar">ترنزيستور NPN</name>
+                                        <name lang="it">Transistor NPN</name>
+                                        <name lang="en">NPN transistor</name>
+                                        <name lang="cs">Tranzistor NPN</name>
+                                        <name lang="fr">Transistor NPN</name>
+                                        <name lang="nl">Transistor NPN</name>
+                                    </names>
+                                    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <input text="_" size="9" rotate="true" x="12" tagg="label" y="-1.45"/>
+                                        <polygon antialias="false" x3="4" y6="4" y3="6" x5="1" x2="3" style="line-style:normal;line-weight:thin;filling:black;color:black" y1="4" x4="-1" y2="1" y4="7" x1="1" x6="1" y5="4"/>
+                                        <polygon antialias="false" x3="10" y3="-17" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="0" x4="10" y2="-10" y4="-17" x1="-5"/>
+                                        <line antialias="false" end2="none" x2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-8" y2="8" x1="-5"/>
+                                        <line antialias="false" end2="none" x2="-9" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="0" y2="0" x1="-5"/>
+                                        <line antialias="false" end2="none" x2="-17" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="0" y2="0" x1="-10"/>
+                                        <polygon antialias="false" x3="10" y3="17" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="0" x4="10" y2="10" y4="17" x1="-5"/>
+                                        <circle antialias="true" diameter="19.6977" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-9.8488" y="-9.8488"/>
+                                        <terminal x="10" orientation="n" y="-21"/>
+                                        <terminal x="10" orientation="s" y="21"/>
+                                        <terminal x="-21" orientation="w" y="0"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                    <category name="110_network_supplies">
+                        <names>
+                            <name lang="cs">Síťové zdroje</name>
+                            <name lang="fr">Sources réseau</name>
+                            <name lang="de">Netzquellen</name>
+                            <name lang="en">Network supplies</name>
+                            <name lang="ru">Подвод питания, сеть</name>
+                            <name lang="nl">Netwerk voedingen</name>
+                            <name lang="el">Παροχές δικτύου</name>
+                            <name lang="it">Alimentazione da rete</name>
+                            <name lang="pl">Sieć elektroenergetyczna</name>
+                        </names>
+                        <element name="terre.elmt">
+                            <definition width="20" type="element" link_type="simple" hotspot_x="10" version="0.5" hotspot_y="19" orientation="dyyy" height="30">
+                                <uuid uuid="{93eafb79-a84a-45e3-b43b-327d0944591b}"/>
+                                <names>
+                                    <name lang="pt">Terra</name>
+                                    <name lang="el">Γείωση</name>
+                                    <name lang="es">Tierra</name>
+                                    <name lang="nl">Aarde</name>
+                                    <name lang="de">Erde</name>
+                                    <name lang="cs">Země</name>
+                                    <name lang="pl">Uziemienie</name>
+                                    <name lang="it">Terra</name>
+                                    <name lang="ar">تأريض</name>
+                                    <name lang="en">Ground</name>
+                                    <name lang="fr">Terre</name>
+                                    <name lang="ru">Земля</name>
+                                </names>
+                                <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                <description>
+                                    <input text="_" size="9" rotate="true" x="2" tagg="label" y="-11.5"/>
+                                    <line antialias="false" end2="none" x2="3" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="4" y1="4" x1="-3"/>
+                                    <line antialias="false" end2="none" x2="5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="2" y1="2" x1="-5"/>
+                                    <line antialias="false" end2="none" x2="7" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="0" y1="0" x1="-7"/>
+                                    <line antialias="false" end2="none" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="0" y1="-10" x1="0"/>
+                                    <terminal x="0" orientation="n" y="-11"/>
+                                </description>
+                            </definition>
+                        </element>
+                    </category>
+                    <category name="200_fuses&amp;protective_gears">
+                        <names>
+                            <name lang="cs">Tavné pojistky a ochrany</name>
+                            <name lang="fr">Fusibles et protections</name>
+                            <name lang="de">Sicherungen und Schutzeinrichtungen</name>
+                            <name lang="en">Fuses and protective gears</name>
+                            <name lang="ru">Предохранители и элементы защиты</name>
+                            <name lang="nl">Zekeringen en beveiligingen</name>
+                            <name lang="el">Ασφάλειες και εξαρτήματα προστασίας</name>
+                            <name lang="it">Fusibili e protezioni</name>
+                            <name lang="pl">Łączniki i zabezpieczenia</name>
+                        </names>
+                        <category name="30_thermal_relays">
+                            <names>
+                                <name lang="es">Relés térmicos</name>
+                                <name lang="cs">Tepelná relé</name>
+                                <name lang="fr">Relais thermiques</name>
+                                <name lang="pt">Relés térmicos</name>
+                                <name lang="de">Überstromrelais</name>
+                                <name lang="en">Thermal relays</name>
+                                <name lang="ar">مُرحلات حرارية</name>
+                                <name lang="ru">Тепловые реле</name>
+                                <name lang="nl">Thermisch blokken</name>
+                                <name lang="el">Θερμικά</name>
+                                <name lang="it">Relè termici</name>
+                                <name lang="pl">Przekaźniki termiczne</name>
+                            </names>
+                            <element name="relais_therm4_1.elmt">
+                                <definition width="90" type="element" link_type="master" hotspot_x="10" version="0.3" hotspot_y="25" orientation="dnny" height="50" ic="true">
+                                    <uuid uuid="{32AF188E-09AC-4F36-9550-FE2AD43D5AB5}"/>
+                                    <names>
+                                        <name lang="ar">مرحل حراري</name>
+                                        <name lang="de">Überstromrelais 3P</name>
+                                        <name lang="el">Θερμικό</name>
+                                        <name lang="en">Thermal relay</name>
+                                        <name lang="it">Relè termico</name>
+                                        <name lang="fr">Relais thermique</name>
+                                        <name lang="pl">Przekaźnik termiczny</name>
+                                        <name lang="es">Relé térmico</name>
+                                        <name lang="cs">Tepelné relé</name>
+                                        <name lang="nl">Thermisch blok </name>
+                                    </names>
+                                    <kindInformations>
+                                        <kindInformation name="type" show="1">protection</kindInformation>
+                                    </kindInformations>
+                                    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <input text="Plage _A/_A" size="4" rotate="true" x="36" y="6.3333"/>
+                                        <rect width="35" antialias="false" style="line-style:dashed;line-weight:normal;filling:none;color:black" x="-5" height="20" y="-10"/>
+                                        <input text="Réglage _A" size="4" rotate="true" x="36" y="14.3333"/>
+                                        <input text="_" size="9" x="35" tagg="label" y="-3.3333"/>
+                                        <line antialias="false" end2="none" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-20" y2="-5" x1="0"/>
+                                        <line antialias="false" end2="none" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="5" y2="20" x1="0"/>
+                                        <line antialias="false" end2="none" x2="5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-5" y2="5" x1="5"/>
+                                        <line antialias="false" end2="none" x2="5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-5" y2="-5" x1="0"/>
+                                        <line antialias="false" end2="none" x2="5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="5" y2="5" x1="0"/>
+                                        <line antialias="false" end2="none" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-20" y2="-5" x1="10"/>
+                                        <line antialias="false" end2="none" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="5" y2="20" x1="10"/>
+                                        <line antialias="false" end2="none" x2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-5" y2="5" x1="15"/>
+                                        <line antialias="false" end2="none" x2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-5" y2="-5" x1="10"/>
+                                        <line antialias="false" end2="none" x2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="5" y2="5" x1="10"/>
+                                        <line antialias="false" end2="none" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-20" y2="-5" x1="20"/>
+                                        <line antialias="false" end2="none" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="5" y2="20" x1="20"/>
+                                        <line antialias="false" end2="none" x2="25" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-5" y2="5" x1="25"/>
+                                        <line antialias="false" end2="none" x2="25" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-5" y2="-5" x1="20"/>
+                                        <line antialias="false" end2="none" x2="25" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="5" y2="5" x1="20"/>
+                                        <terminal x="0" orientation="n" y="-21"/>
+                                        <terminal x="0" orientation="s" y="21"/>
+                                        <terminal x="10" orientation="n" y="-21"/>
+                                        <terminal x="10" orientation="s" y="21"/>
+                                        <terminal x="20" orientation="n" y="-21"/>
+                                        <terminal x="20" orientation="s" y="21"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                    <category name="130_terminals&amp;terminal_strips">
+                        <names>
+                            <name lang="es">Terminales</name>
+                            <name lang="cs">Svorky</name>
+                            <name lang="fr">Bornes et borniers</name>
+                            <name lang="pt">Terminais</name>
+                            <name lang="de">Klemmen und Klemmleisten</name>
+                            <name lang="en">Terminals and terminal strips</name>
+                            <name lang="ar">طرفيات توصيل</name>
+                            <name lang="ru">Клеммы и клеммники</name>
+                            <name lang="nl">Klemmenlijst</name>
+                            <name lang="el">Ακροδέκτες και σειρές ακροδεκτών</name>
+                            <name lang="it">Terminali</name>
+                            <name lang="pl">Złącza i zaciski</name>
+                        </names>
+                        <category name="90_terminal_strips_diagram">
+                            <names>
+                                <name lang="fr">Plans de borniers</name>
+                                <name lang="de">Klemmenanschlusspläne</name>
+                                <name lang="en">Terminal strips diagram</name>
+                            </names>
+                            <element name="borne_bornier.elmt">
+                                <definition width="30" type="element" link_type="simple" hotspot_x="15" version="0.5" hotspot_y="35" orientation="dyyy" height="80">
+                                    <uuid uuid="{96eb8e93-2001-4385-85cc-2d7dcc662024}"/>
+                                    <names>
+                                        <name lang="es">Terminal</name>
+                                        <name lang="nl">Klem</name>
+                                        <name lang="de">Klemme</name>
+                                        <name lang="cs">Svorka svorkoviště</name>
+                                        <name lang="pl">Zacisk</name>
+                                        <name lang="it">Morsetto</name>
+                                        <name lang="ar">طرف</name>
+                                        <name lang="en">Terminal</name>
+                                        <name lang="fr">Borne de bornier</name>
+                                    </names>
+                                    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <input text="(0000)" size="6" rotate="true" x="-14" tagg="label" y="-42"/>
+                                        <line antialias="false" end2="none" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="40" y1="37" x1="-3"/>
+                                        <input text="00" size="9" rotate="true" x="-10" tagg="none" y="-18"/>
+                                        <line antialias="false" end2="none" x2="3" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="37" y1="40" x1="0"/>
+                                        <line antialias="false" end2="none" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="40" y1="30" x1="0"/>
+                                        <rect width="20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" height="60" y="-30"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                    <category name="310_relays_contactors&amp;contacts">
+                        <names>
+                            <name lang="cs">Relé, stykače a kontakty</name>
+                            <name lang="fr">Relais, contacteurs et contacts</name>
+                            <name lang="de">Relais, Schütze und Kontakte</name>
+                            <name lang="en">Relays, contactors and contacts</name>
+                            <name lang="ru">Реле, пускатели и контакты</name>
+                            <name lang="nl">Relais, contactoren en contacten</name>
+                            <name lang="el">Ηλεκτρονόμοι και επαφές</name>
+                            <name lang="it">Relè, contattori e contatti</name>
+                            <name lang="pl">Przekaźniki i styczniki</name>
+                        </names>
+                        <category name="01_coils">
+                            <names>
+                                <name lang="es">Bobinas</name>
+                                <name lang="cs">Cívky</name>
+                                <name lang="fr">Bobines</name>
+                                <name lang="pt">Bobines</name>
+                                <name lang="de">Spulen</name>
+                                <name lang="en">Coils</name>
+                                <name lang="ar">ملفات</name>
+                                <name lang="ru">Катушки</name>
+                                <name lang="nl">Spoelen</name>
+                                <name lang="el">Πηνία</name>
+                                <name lang="be">Spoelen</name>
+                                <name lang="it">Bobine</name>
+                                <name lang="pl">Cewki</name>
+                            </names>
+                            <element name="comm_rapides.elmt">
+                                <definition width="60" type="element" link_type="master" hotspot_x="25" version="0.3" hotspot_y="30" orientation="dnny" height="60">
+                                    <uuid uuid="{A9AFEEC9-306F-4CA0-AC27-D256EA5D6536}"/>
+                                    <names>
+                                        <name lang="el">Πηνίο γρήγορου ρελέ</name>
+                                        <name lang="en">Fast relay</name>
+                                        <name lang="de">Schnellschaltrelais</name>
+                                        <name lang="it">Relè rapido</name>
+                                        <name lang="fr">Relais rapide (à mise au travail et à mise au repos rapides)</name>
+                                        <name lang="pl">Przekaźnik szybki</name>
+                                        <name lang="cs">Rychlé relé</name>
+                                        <name lang="es">Relé rapido</name>
+                                        <name lang="nl">relais snel</name>
+                                    </names>
+                                    <kindInformations>
+                                        <kindInformation name="type" show="1">coil</kindInformation>
+                                    </kindInformations>
+                                    <informations>License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <line antialias="false" end2="none" x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="0" y2="0" x1="-22"/>
+                                        <rect width="7" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-22" height="20" y="-10"/>
+                                        <rect width="30" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15" height="20" y="-10"/>
+                                        <line antialias="false" end2="none" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="20" y2="10" x1="0"/>
+                                        <line antialias="false" end2="none" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-20" y2="-10" x1="0"/>
+                                        <input text="A2" size="4" x="-14" y="18"/>
+                                        <input text="A1" size="4" x="-14" y="-17"/>
+                                        <input text="_" size="9" x="16" tagg="label" y="0.5"/>
+                                        <terminal x="0" orientation="n" y="-20"/>
+                                        <terminal x="0" orientation="s" y="20"/>
+                                    </description>
+                                </definition>
+                            </element>
+                            <element name="relais_polarise_retournant.elmt">
+                                <definition width="100" type="element" hotspot_x="48" version="0.3" hotspot_y="30" orientation="dnny" height="60" ic="true">
+                                    <uuid uuid="{9EC34531-9367-4401-ADFE-7FB65430ED6D}"/>
+                                    <names>
+                                        <name lang="el">Πηνίο ρελέ με πολικότητα</name>
+                                        <name lang="en">Polarized relay</name>
+                                        <name lang="de">Relais polarisiert mit Wechsler</name>
+                                        <name lang="it">Relè polarizzato</name>
+                                        <name lang="fr">Relais polarisé fonctionnant pour un seul sens du courant et retournant en position de repos après coupure</name>
+                                        <name lang="pl">Przekaźnik spolaryzowany, działający przy jednym kierunku prądu w cewce</name>
+                                        <name lang="es">Relé polarizado, de trabajo en una dirección de la corriente en la bobina</name>
+                                        <name lang="cs">Polarizované relé, pracující v jednom směru proudu v cívce</name>
+                                        <name lang="nl">Polair relais</name>
+                                    </names>
+                                    <informations>License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <circle antialias="true" diameter="3" style="line-style:normal;line-weight:normal;filling:black;color:black" x="34.5" y="-16.5"/>
+                                        <line antialias="false" end2="none" x2="25" style="line-style:dashed;line-weight:thin;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="0" y2="0" x1="-5"/>
+                                        <circle antialias="true" diameter="3" style="line-style:normal;line-weight:normal;filling:black;color:black" x="-13.5" y="13.5"/>
+                                        <input text="2" size="4" x="19.5" y="-15.45"/>
+                                        <input text="3" size="4" x="20" y="16"/>
+                                        <input text="1" size="4" x="0" y="-16"/>
+                                        <line antialias="false" end2="none" x2="23" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-9" y2="-9" x1="10"/>
+                                        <polygon style="line-style:normal;line-weight:normal;filling:black;color:black" y4="7" y10="-7" x10="-42" y3="-7" x8="-35" x2="-42" x9="-42" x7="-35" y5="7" y9="-10" x3="-38" y2="-7" antialias="false" y7="10" y1="-10" x4="-38" y6="10" x5="-42" y8="-10" x6="-42" x1="-42"/>
+                                        <polygon antialias="true" x3="20" y3="-10" x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="20" y2="10" x1="30"/>
+                                        <rect width="7" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-42" height="20" y="-10"/>
+                                        <line antialias="false" end2="none" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-20" y2="-9" x1="10"/>
+                                        <rect width="30" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-35" height="20" y="-10"/>
+                                        <line antialias="false" end2="none" x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-20" y2="-10" x1="30"/>
+                                        <line antialias="false" end2="none" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="20" y2="10" x1="-20"/>
+                                        <line antialias="false" end2="none" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-20" y2="-10" x1="-20"/>
+                                        <input text="A2" size="4" x="-34" y="18"/>
+                                        <input text="A1" size="4" x="-34" y="-17"/>
+                                        <input text="_" size="9" x="31" tagg="label" y="0.5"/>
+                                        <terminal x="-20" orientation="n" y="-20"/>
+                                        <terminal x="-20" orientation="s" y="20"/>
+                                        <terminal x="10" orientation="n" y="-20"/>
+                                        <terminal x="30" orientation="n" y="-20"/>
+                                        <terminal x="30" orientation="s" y="20"/>
+                                    </description>
+                                </definition>
+                            </element>
+                            <element name="comm_electronique.elmt">
+                                <definition width="40" type="element" link_type="master" hotspot_x="20" version="0.3" hotspot_y="25" orientation="dnny" height="50">
+                                    <uuid uuid="{9BED5679-4CC9-4A1D-957D-2D36B51F2E84}"/>
+                                    <names>
+                                        <name lang="el">Ηλεκτρονικό ρελέ</name>
+                                        <name lang="en">Electronic relay</name>
+                                        <name lang="de">Relais elektronisch</name>
+                                        <name lang="it">Relè a comando elettronico</name>
+                                        <name lang="fr">Relais électronique</name>
+                                        <name lang="pl">Przekaźnik elektroniczny</name>
+                                        <name lang="cs">Elektronické relé</name>
+                                        <name lang="nl">relais electronisch</name>
+                                        <name lang="es">Relé electrónico</name>
+                                        <name lang="be">Electronisch relais</name>
+                                    </names>
+                                    <kindInformations>
+                                        <kindInformation name="type" show="1">coil</kindInformation>
+                                    </kindInformations>
+                                    <informations>License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <line antialias="true" end2="none" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-8" y2="-2" x1="7"/>
+                                        <rect width="30" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15" height="20" y="-10"/>
+                                        <line antialias="true" end2="none" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="8" y2="2" x1="7"/>
+                                        <line antialias="false" end2="none" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="0" y2="0" x1="-7"/>
+                                        <line antialias="false" end2="none" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-6" y2="6" x1="0"/>
+                                        <line antialias="false" end2="none" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="20" y2="10" x1="0"/>
+                                        <line antialias="false" end2="none" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-20" y2="-10" x1="0"/>
+                                        <input text="A2" size="4" x="-14" y="18"/>
+                                        <input text="A1" size="4" x="-14" y="-17"/>
+                                        <input text="_" size="9" x="16" tagg="label" y="0.5"/>
+                                        <terminal x="0" orientation="n" y="-20"/>
+                                        <terminal x="0" orientation="s" y="20"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                </category>
+                <category name="98_graphics">
+                    <names>
+                        <name lang="fr">Graphisme</name>
+                        <name lang="de">Grafik</name>
+                        <name lang="en">Graphics</name>
+                        <name lang="nl">Grafisch</name>
+                        <name lang="ru">Графика</name>
+                        <name lang="el">Γραφικά</name>
+                        <name lang="it">Grafica</name>
+                        <name lang="pl">Oznaczenia</name>
+                    </names>
+                    <category name="99_assembly_plan">
+                        <names>
+                            <name lang="cs">Náhledy montážního plánu</name>
+                            <name lang="fr">Vignettes pour mise en armoire</name>
+                            <name lang="de">Aufbauplanzeichnungen</name>
+                            <name lang="en">Thumbnails for assembly plan</name>
+                            <name lang="nl">Opbouwtekeningen</name>
+                            <name lang="it">Miniature per schemi di montaggio</name>
+                            <name lang="pl">Budowa rozdzielnic i sterownic</name>
+                        </names>
+                        <category name="01_thumbnails_mounting_plate">
+                            <names>
+                                <name lang="cs">Montážní schémata</name>
+                                <name lang="fr">Vignettes pour plaque de montage</name>
+                                <name lang="de">Miniaturansichten für Montageplatte</name>
+                                <name lang="en">Thumbnails for mounting plate</name>
+                                <name lang="nl">Montageplaat miniaturen</name>
+                                <name lang="it">Miniature apparecchi guida DIN</name>
+                                <name lang="pl">Schemat montażowy</name>
+                            </names>
+                            <element name="miniature_relay.elmt">
+                                <definition width="30" type="element" link_type="simple" hotspot_x="15" version="0.5" hotspot_y="45" orientation="dyyy" height="90">
+                                    <uuid uuid="{2037a9ac-bd74-4af2-a1f6-db5180ff1e62}"/>
+                                    <names>
+                                        <name lang="fr">embase relais miniature</name>
+                                        <name lang="pl">Przekaźnik</name>
+                                        <name lang="cs">Miniaturní relé</name>
+                                        <name lang="de">Relais</name>
+                                        <name lang="el">Ρελέ μινιατούρα</name>
+                                        <name lang="it">Relè miniatura</name>
+                                        <name lang="en">Miniature plug-in Relay</name>
+                                        <name lang="nl">relais miniatuur basis stekker</name>
+                                    </names>
+                                    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <rect width="22" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-11" height="76" y="-38"/>
+                                        <rect width="20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" height="27" y="-13"/>
+                                        <line antialias="false" end2="none" x2="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="20" y1="20" x1="-8"/>
+                                        <circle antialias="true" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-4.7" y="-35"/>
+                                        <circle antialias="true" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="5" y="18"/>
+                                        <circle antialias="true" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="0.7" y="-35"/>
+                                        <circle antialias="true" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="6" y="31"/>
+                                        <circle antialias="true" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="6" y="-24"/>
+                                        <circle antialias="true" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="6" y="-35"/>
+                                        <circle antialias="true" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" y="-35"/>
+                                        <circle antialias="true" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="0.7" y="31"/>
+                                        <circle antialias="true" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="0.7" y="-24"/>
+                                        <rect width="6" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black" x="2" height="3" y="-9"/>
+                                        <circle antialias="true" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" y="-24"/>
+                                        <circle antialias="true" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" y="31"/>
+                                        <circle antialias="true" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-9" y="18"/>
+                                        <circle antialias="true" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-4.7" y="31"/>
+                                        <circle antialias="true" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-4.7" y="-24"/>
+                                        <rect width="12" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black" x="-9" height="5" y="7"/>
+                                        <line antialias="false" end2="none" x2="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-21" y1="-23" x1="-8"/>
+                                        <line antialias="false" end2="none" x2="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="21" y1="19" x1="-7"/>
+                                        <line antialias="false" end2="none" x2="1" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-2" y1="-13" x1="1"/>
+                                        <line antialias="false" end2="none" x2="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="34" y1="32" x1="-8"/>
+                                        <line antialias="false" end2="none" x2="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="33" y1="33" x1="-9"/>
+                                        <line antialias="false" end2="none" x2="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-22" y1="-22" x1="-9"/>
+                                        <line antialias="false" end2="none" x2="10" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-2" y1="-2" x1="1"/>
+                                        <line antialias="false" end2="none" x2="7" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="21" y1="19" x1="7"/>
+                                        <line antialias="false" end2="none" x2="8" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-21" y1="-23" x1="8"/>
+                                        <line antialias="false" end2="none" x2="-9" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-1" y1="-13" x1="-9"/>
+                                        <line antialias="false" end2="none" x2="8" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="34" y1="32" x1="8"/>
+                                        <line antialias="false" end2="none" x2="9" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-22" y1="-22" x1="7"/>
+                                        <line antialias="false" end2="none" x2="9" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="33" y1="33" x1="7"/>
+                                        <line antialias="false" end2="none" x2="-1" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-1" y1="-13" x1="-1"/>
+                                        <line antialias="false" end2="none" x2="8" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="20" y1="20" x1="6"/>
+                                        <line antialias="false" end2="none" x2="-2.7" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-21" y1="-23" x1="-2.7"/>
+                                        <line antialias="false" end2="none" x2="-1" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-1" y1="-1" x1="-9"/>
+                                        <line antialias="false" end2="none" x2="-2.7" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="34" y1="32" x1="-2.7"/>
+                                        <line antialias="false" end2="none" x2="-1.7" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-22" y1="-22" x1="-3.7"/>
+                                        <arc width="8" antialias="true" angle="-180" style="line-style:normal;line-weight:thin;filling:none;color:black" x="-9" start="0" height="4" y="-3"/>
+                                        <line antialias="false" end2="none" x2="-1.7" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="33" y1="33" x1="-3.7"/>
+                                        <line antialias="false" end2="none" x2="2.7" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="34" y1="32" x1="2.7"/>
+                                        <line antialias="false" end2="none" x2="2.7" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-21" y1="-23" x1="2.7"/>
+                                        <rect width="2" antialias="false" style="line-style:normal;line-weight:thin;filling:black;color:black" x="-6" height="2" y="-12"/>
+                                        <line antialias="false" end2="none" x2="3.7" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="33" y1="33" x1="1.7"/>
+                                        <line antialias="false" end2="none" x2="3.7" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-22" y1="-22" x1="1.7"/>
+                                        <line antialias="false" end2="none" x2="10" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-22" y1="-22" x1="-11"/>
+                                        <line antialias="false" end2="none" x2="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-32" y1="-34" x1="-8"/>
+                                        <line antialias="false" end2="none" x2="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-33" y1="-33" x1="-9"/>
+                                        <line antialias="false" end2="none" x2="8" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-32" y1="-34" x1="8"/>
+                                        <line antialias="false" end2="none" x2="9" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-33" y1="-33" x1="7"/>
+                                        <line antialias="false" end2="none" x2="-2.7" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-32" y1="-34" x1="-2.7"/>
+                                        <line antialias="false" end2="none" x2="-1.7" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-33" y1="-33" x1="-3.7"/>
+                                        <line antialias="false" end2="none" x2="11" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-27" y1="-27" x1="-11"/>
+                                        <line antialias="false" end2="none" x2="2.7" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-32" y1="-34" x1="2.7"/>
+                                        <line antialias="false" end2="none" x2="3.7" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-33" y1="-33" x1="1.7"/>
+                                        <line antialias="false" end2="none" x2="11" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="27" y1="27" x1="-11"/>
+                                        <text text="A2" size="2" x="-9" y="26"/>
+                                        <text text="A1" size="2" x="5" y="26"/>
+                                        <text text="11" size="1" x="7" y="37"/>
+                                        <text text="21" size="1" x="2" y="37"/>
+                                        <text text="31" size="1" x="-3.5" y="37"/>
+                                        <text text="41" size="1" x="-9" y="37"/>
+                                        <line antialias="false" end2="none" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="-15" y1="-15" x1="-11"/>
+                                        <line antialias="false" end2="none" x2="9.22064" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="16" y1="16" x1="-9.20367"/>
+                                        <text text="12" size="1" x="7" y="-25"/>
+                                        <text text="22" size="1" x="2" y="-25"/>
+                                        <text text="32" size="1" x="-3.5" y="-25"/>
+                                        <text text="42" size="1" x="-9" y="-25"/>
+                                        <text text="14" size="1" x="7" y="-36"/>
+                                        <text text="24" size="1" x="2" y="-36"/>
+                                        <text text="34" size="1" x="-3.5" y="-36"/>
+                                        <text text="44" size="1" x="-9" y="-36"/>
+                                        <line antialias="false" end2="none" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="26" y1="16" x1="-10"/>
+                                        <line antialias="false" end2="none" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y2="26" y1="16" x1="10"/>
+                                        <input text="KA_" size="3" rotate="true" x="-13" tagg="label" y="9.5"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                </category>
+                <category name="20_manufacturers_articles">
+                    <names>
+                        <name lang="fr">Articles constructeurs</name>
+                        <name lang="de">Herstellerartikel</name>
+                        <name lang="en">Manufacturers articles</name>
+                        <name lang="ru">База изделий производителей</name>
+                        <name lang="el">Κατασκευαστές υλικού</name>
+                        <name lang="it">Marchi produttori</name>
+                        <name lang="pl">Urządzenia producentów</name>
+                    </names>
+                    <category name="finder">
+                        <names>
+                            <name lang="cs">Finder</name>
+                            <name lang="en">Finder</name>
+                        </names>
+                        <category name="99_assembly_plan">
+                            <names>
+                                <name lang="cs">Náhledy na montážní plán</name>
+                                <name lang="fr">Vignettes pour mise en armoire</name>
+                                <name lang="de">Aufbauplanzeichnungen</name>
+                                <name lang="en">Thumbnails for assembly plan</name>
+                                <name lang="it">Miniature per schemi di montaggio</name>
+                            </names>
+                            <element name="finder60.elmt">
+                                <definition width="50" type="element" link_type="simple" hotspot_x="6" version="0.5" hotspot_y="35" orientation="dyyy" height="70">
+                                    <uuid uuid="{962b9824-10b1-470d-a2a5-0e203cb1fae7}"/>
+                                    <names>
+                                        <name lang="pl">Przekaźnik Finder 60.....</name>
+                                        <name lang="nl">Relais algemeen finder Série 60</name>
+                                        <name lang="el">Ρελέ τύπου λυχνίας</name>
+                                        <name lang="fr">Relais finder Serie 60</name>
+                                        <name lang="en">General Purpose Relay</name>
+                                        <name lang="it">Relè ad innesto - Serie 60</name>
+                                        <name lang="cs">Řadové relé Série 60</name>
+                                    </names>
+                                    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <rect antialias="false" width="32" style="line-style:normal;line-weight:normal;filling:none;color:black" x="3" height="36" y="-18"/>
+                                        <rect antialias="false" width="38" style="line-style:normal;line-weight:normal;filling:none;color:black" x="0" height="62" y="-31"/>
+                                        <circle antialias="true" diameter="5" style="line-style:normal;line-weight:thin;filling:none;color:black" x="8" y="-10"/>
+                                        <input text="finder" size="4" rotate="true" x="12" tagg="none" y="-6.5"/>
+                                        <line antialias="false" end2="none" x2="35.0259" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-11" y2="-11" x1="23.7985"/>
+                                        <line antialias="false" end2="none" x2="32.7362" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-12.5" y2="-12.5" x1="24.2435"/>
+                                        <line antialias="false" end2="none" x2="32" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-14" y2="-14" x1="27"/>
+                                        <line antialias="false" end2="none" x2="32.7362" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-15.5" y2="-15.5" x1="24.2435"/>
+                                        <arc antialias="true" width="7" angle="-90" style="line-style:normal;line-weight:thin;filling:none;color:black" x="20" start="-90" height="7" y="-18"/>
+                                        <circle antialias="true" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x="3" y="-26"/>
+                                        <circle antialias="true" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x="12" y="-26"/>
+                                        <circle antialias="true" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x="30" y="-26"/>
+                                        <circle antialias="true" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x="21" y="-26"/>
+                                        <circle antialias="true" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x="21" y="21"/>
+                                        <text text="22" size="2" x="13" y="-27"/>
+                                        <circle antialias="true" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x="3" y="21"/>
+                                        <circle antialias="true" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x="31" y="21"/>
+                                        <circle antialias="true" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x="12" y="21"/>
+                                        <text text="24" size="2" x="4" y="-27"/>
+                                        <text text="12" size="2" x="22" y="-27"/>
+                                        <text text="14" size="2" x="31" y="-27"/>
+                                        <text text="A1" size="2" x="32" y="30"/>
+                                        <text text="A2" size="2" x="4" y="30"/>
+                                        <text text="21" size="2" x="13" y="30"/>
+                                        <text text="11" size="2" x="22" y="30"/>
+                                        <rect antialias="false" width="7" style="line-style:normal;line-weight:thin;filling:none;color:black" x="8" height="2" y="-15"/>
+                                        <rect antialias="false" width="4" style="line-style:normal;line-weight:thin;filling:none;color:black" x="11" height="4" y="10"/>
+                                        <rect antialias="false" width="21" style="line-style:normal;line-weight:thin;filling:none;color:black" x="8" height="6" y="3"/>
+                                        <circle antialias="true" diameter="4" style="line-style:normal;line-weight:thin;filling:none;color:black" x="21" y="-16"/>
+                                        <line antialias="false" end2="none" x2="34" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-15.5" y2="-14" x1="33"/>
+                                        <line antialias="false" end2="none" x2="34" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-12.5" y2="-14" x1="33"/>
+                                        <line antialias="false" end2="none" x2="20" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-18.0847" y2="-13.5758" x1="20"/>
+                                        <line antialias="false" end2="none" x2="7" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-25" y2="-22" x1="4"/>
+                                        <line antialias="false" end2="none" x2="6" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-23" y2="-24" x1="5"/>
+                                        <line antialias="false" end2="none" x2="16" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-25" y2="-22" x1="13"/>
+                                        <line antialias="false" end2="none" x2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-23" y2="-24" x1="14"/>
+                                        <line antialias="false" end2="none" x2="25" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-25" y2="-22" x1="22"/>
+                                        <line antialias="false" end2="none" x2="24" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-23" y2="-24" x1="23"/>
+                                        <line antialias="false" end2="none" x2="34" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-25" y2="-22" x1="31"/>
+                                        <line antialias="false" end2="none" x2="33" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-23" y2="-24" x1="32"/>
+                                        <line antialias="false" end2="none" x2="7" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="22" y2="25" x1="4"/>
+                                        <line antialias="false" end2="none" x2="6" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="24" y2="23" x1="5"/>
+                                        <line antialias="false" end2="none" x2="16" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="22" y2="25" x1="13"/>
+                                        <line antialias="false" end2="none" x2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="24" y2="23" x1="14"/>
+                                        <line antialias="false" end2="none" x2="25" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="22" y2="25" x1="22"/>
+                                        <line antialias="false" end2="none" x2="24" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="24" y2="23" x1="23"/>
+                                        <line antialias="false" end2="none" x2="35" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="22" y2="25" x1="32"/>
+                                        <line antialias="false" end2="none" x2="34" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="24" y2="23" x1="33"/>
+                                        <input text="KA_" size="3" rotate="true" x="6" tagg="label" y="6.5"/>
+                                        <input text="60.__.__.__" size="1" rotate="true" x="7" tagg="none" y="-3.5"/>
+                                        <line antialias="false" end2="none" x2="13.8" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="1" y2="1" x1="9.18462"/>
+                                        <rect antialias="false" width="3" style="line-style:normal;line-weight:thin;filling:none;color:black" x="10" height="2" y="0"/>
+                                        <text text="1" size="1" x="23" y="20"/>
+                                        <text text="2" size="1" x="33" y="20"/>
+                                        <text text="3" size="1" x="32" y="-19"/>
+                                        <text text="4" size="1" x="23" y="-19"/>
+                                        <text text="5" size="1" x="14" y="-19"/>
+                                        <text text="6" size="1" x="5" y="-19"/>
+                                        <text text="7" size="1" x="5" y="20"/>
+                                        <text text="8" size="1" x="14" y="20"/>
+                                        <input text="__V" size="1" rotate="true" x="13" tagg="none" y="0.5"/>
+                                        <line antialias="false" end2="none" x2="23" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-15" y2="-13" x1="23"/>
+                                        <line antialias="false" end2="none" x2="24" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-14" y2="-14" x1="22"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                    <category name="national_instrument">
+                        <names>
+                            <name lang="cs">National Instrument</name>
+                            <name lang="en">National Instrument</name>
+                        </names>
+                        <category name="01_PLC&amp;controllers">
+                            <names>
+                                <name lang="fr">API et commandes</name>
+                                <name lang="de">SPS und Steuerungen</name>
+                                <name lang="en">PLC and controllers</name>
+                                <name lang="ru">ПЛК и схемы управления</name>
+                                <name lang="it">PLC e controllori</name>
+                            </names>
+                            <category name="crio">
+                                <names>
+                                    <name lang="es">cRIO</name>
+                                    <name lang="cs">cRIO</name>
+                                    <name lang="fr">cRIO</name>
+                                    <name lang="pt">cRIO</name>
+                                    <name lang="de">cRIO</name>
+                                    <name lang="ar">cRIO</name>
+                                    <name lang="en">cRIO</name>
+                                    <name lang="nl">cRIO</name>
+                                    <name lang="el">cRIO</name>
+                                    <name lang="be">cRIO</name>
+                                    <name lang="it">cRIO</name>
+                                    <name lang="pl">cRIO</name>
+                                </names>
+                                <element name="crio_9481_4do.elmt">
+                                    <definition width="50" type="element" link_type="simple" hotspot_x="25" version="0.5" hotspot_y="76" orientation="dyyy" height="140">
+                                        <uuid uuid="{4fc19ff4-e517-45f4-b812-5a80e1b3069e}"/>
+                                        <names>
+                                            <name lang="it">cRIO 9481 - modulo 4 uscite a relè 2A</name>
+                                            <name lang="nl">cRIO 9481 4 relais uitgangen 2A gescheiden</name>
+                                            <name lang="es">cRIO 9481 relay 4 salidas 2A</name>
+                                            <name lang="pl">cRIO - czterokanałowy moduł wyjść przekaźnikowych</name>
+                                            <name lang="cs">cRIO 9481 4 výstupy relé 2A</name>
+                                            <name lang="fr">cRIO 9481 - 4 sorties relais 2A</name>
+                                            <name lang="en">cRIO 9481 to 4 relay outputs 2A</name>
+                                        </names>
+                                        <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                        <description>
+                                            <text text="sorties&#xa; relais" size="5" x="-11" y="-63"/>
+                                            <text text="3" size="3" x="7" y="-28"/>
+                                            <rect width="40" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20" height="110" y="-50"/>
+                                            <ellipse width="3" antialias="true" style="line-style:normal;line-weight:thin;filling:green;color:black" x="3" height="6" y="-33"/>
+                                            <ellipse width="3" antialias="true" style="line-style:normal;line-weight:thin;filling:green;color:black" x="-3" height="6" y="-33"/>
+                                            <ellipse width="3" antialias="true" style="line-style:normal;line-weight:thin;filling:green;color:black" x="0" height="6" y="-33"/>
+                                            <rect width="8" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black" x="-7" height="74" y="-20"/>
+                                            <rect width="12" antialias="false" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-9" height="6" y="41"/>
+                                            <rect width="12" antialias="false" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-9" height="6" y="35"/>
+                                            <rect width="12" antialias="false" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-9" height="6" y="5"/>
+                                            <text text="NI 9481" size="5" x="-13" y="-42"/>
+                                            <rect width="12" antialias="false" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-9" height="6" y="29"/>
+                                            <rect width="12" antialias="false" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-9" height="6" y="-1"/>
+                                            <line antialias="false" end2="none" x2="20" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-40" y2="-40" x1="-20"/>
+                                            <rect width="12" antialias="false" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-9" height="6" y="23"/>
+                                            <circle antialias="true" diameter="4" style="line-style:normal;line-weight:thin;filling:none;color:black" x="-5" y="49"/>
+                                            <rect width="12" antialias="false" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-9" height="6" y="-7"/>
+                                            <circle antialias="true" diameter="4" style="line-style:normal;line-weight:thin;filling:none;color:black" x="-5" y="-19"/>
+                                            <rect width="12" antialias="false" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-9" height="6" y="17"/>
+                                            <rect width="12" antialias="false" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-9" height="6" y="-13"/>
+                                            <line antialias="false" end2="none" x2="-2" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="52" y2="50" x1="-4"/>
+                                            <line antialias="false" end2="none" x2="-2" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="-16" y2="-18" x1="-4"/>
+                                            <rect width="12" antialias="false" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-9" height="6" y="11"/>
+                                            <text text="CH0a&#xa;CH0b&#xa;CH1a&#xa;CH1b&#xa;CH2a&#xa;CH2b&#xa;CH3a&#xa;CH3b&#xa;NC&#xa;NC" size="3" x="4" y="-8"/>
+                                            <input text="NI cRIO&#xa;  9481" size="9" rotate="true" x="-29" tagg="label" y="79"/>
+                                            <text text="0&#xa;1&#xa;2&#xa;3&#xa;4&#xa;5&#xa;6&#xa;7&#xa;8&#xa;9" size="3" x="-1" y="-8"/>
+                                            <ellipse width="3" antialias="true" style="line-style:normal;line-weight:thin;filling:green;color:black" x="-6" height="6" y="-33"/>
+                                            <text text="0" size="3" x="-10" y="-28"/>
+                                            <terminal x="-9" orientation="w" y="-4"/>
+                                            <terminal x="-9" orientation="w" y="-10"/>
+                                            <terminal x="-9" orientation="w" y="8"/>
+                                            <terminal x="-9" orientation="w" y="2"/>
+                                            <terminal x="-9" orientation="w" y="20"/>
+                                            <terminal x="-9" orientation="w" y="14"/>
+                                            <terminal x="-9" orientation="w" y="32"/>
+                                            <terminal x="-9" orientation="w" y="26"/>
+                                            <terminal x="-9" orientation="w" y="44"/>
+                                            <terminal x="-9" orientation="w" y="38"/>
+                                        </description>
+                                    </definition>
+                                </element>
+                            </category>
+                        </category>
+                    </category>
+                    <category name="bamo">
+                        <names>
+                            <name lang="cs">Bamo</name>
+                            <name lang="en">Bamo</name>
+                        </names>
+                        <element name="bamo_relais_niveau_resistif_es_2001.elmt">
+                            <definition width="410" type="element" link_type="simple" hotspot_x="24" version="0.5" hotspot_y="15" orientation="dyyy" height="110">
+                                <uuid uuid="{f6a1d814-1120-47d2-bbe6-7cc69a0f24d2}"/>
+                                <names>
+                                    <name lang="pl">Przekaźnik kontroli poziomu ES 2001Bamo</name>
+                                    <name lang="nl">niveau weerstand relais ES2001</name>
+                                    <name lang="el">Αισθητήρας στάθμης ES 2001Bamo</name>
+                                    <name lang="fr">Relais niveau resistif ES 2001</name>
+                                    <name lang="en">Relay level resistive ES 2001</name>
+                                    <name lang="it">Relè di livello resistivo BAMO ES 2001</name>
+                                    <name lang="cs">Rezistivní úroveň relé ES 2001Bamo</name>
+                                    <name lang="es">Relevador de nivel resistivo</name>
+                                </names>
+                                <informations>Rafart Renaud</informations>
+                                <description>
+                                    <line antialias="false" end2="none" x2="100" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="60" y2="50" x1="100"/>
+                                    <text text="1 On : Sécu. travail" size="5" x="257" y="26"/>
+                                    <line antialias="false" end2="none" x2="130" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="60" y2="50" x1="130"/>
+                                    <input text="8" size="9" rotate="true" x="103" tagg="none" y="1"/>
+                                    <text text="2 Off : 1-70K" size="5" x="257" y="35"/>
+                                    <line antialias="false" end2="none" x2="130" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="50" y2="50" x1="121"/>
+                                    <line antialias="false" end2="none" x2="110" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="20" y2="30" x1="110"/>
+                                    <text text="2 On : 5-150K" size="5" x="257" y="45"/>
+                                    <line antialias="false" end2="none" x2="124" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="30" y2="52" x1="110"/>
+                                    <input text="11" size="9" rotate="true" x="170" tagg="none" y="1"/>
+                                    <text text="5" size="9" x="364" y="44"/>
+                                    <input text="7" size="9" rotate="true" x="92" tagg="none" y="75.5"/>
+                                    <input text="12" size="9" rotate="true" x="190" tagg="none" y="75.5"/>
+                                    <input text="9" size="9" rotate="true" x="123" tagg="none" y="75.5"/>
+                                    <input text="10" size="9" rotate="true" x="159" tagg="none" y="75.5"/>
+                                    <text text="6" size="9" x="364" y="64"/>
+                                    <rect antialias="false" width="400" style="line-style:normal;line-weight:thin;filling:none;color:black" x="-20" height="100" y="-10"/>
+                                    <input text="3&#xa;L1(+)" size="9" rotate="true" x="39" tagg="none" y="9"/>
+                                    <rect antialias="false" width="13" style="line-style:normal;line-weight:normal;filling:black;color:black" x="263" height="6" y="70"/>
+                                    <text text="Relais" size="9" x="-15" y="24"/>
+                                    <text text="ES2001" size="9" x="-15" y="68"/>
+                                    <input text="N(-)&#xa;2" size="9" rotate="true" x="40" tagg="none" y="68"/>
+                                    <rect antialias="false" width="40" style="line-style:normal;line-weight:thin;filling:none;color:black" x="256" height="30" y="50"/>
+                                    <rect antialias="false" width="40" style="line-style:normal;line-weight:thin;filling:none;color:black" x="256" height="15" y="50"/>
+                                    <text rotation="270" text="ON" size="9" x="253" y="73"/>
+                                    <rect antialias="false" width="13" style="line-style:normal;line-weight:normal;filling:black;color:black" x="263" height="6" y="55"/>
+                                    <text rotation="270" text="2" size="9" x="310" y="61"/>
+                                    <text rotation="270" text="1" size="9" x="310" y="76"/>
+                                    <text text="1 Off : Sécu. repos" size="5" x="257" y="17"/>
+                                    <text text="résistif" size="9" x="-15" y="53"/>
+                                    <text text="4" size="9" x="364" y="24"/>
+                                    <text text="de niveau" size="9" x="-15" y="38"/>
+                                    <line antialias="false" end2="none" x2="170" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="60" y2="50" x1="170"/>
+                                    <line antialias="false" end2="none" x2="200" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="60" y2="50" x1="200"/>
+                                    <line antialias="false" end2="none" x2="200" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="50" y2="50" x1="191"/>
+                                    <line antialias="false" end2="none" x2="180" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="20" y2="30" x1="180"/>
+                                    <line antialias="false" end2="none" x2="194" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end1="none" y1="30" y2="52" x1="180"/>
+                                    <input text="_" size="9" rotate="true" x="-20" tagg="label" y="-40"/>
+                                    <terminal x="380" orientation="e" y="20"/>
+                                    <terminal x="379" orientation="e" y="40"/>
+                                    <terminal x="379" orientation="e" y="60"/>
+                                    <terminal x="99" orientation="s" y="89"/>
+                                    <terminal x="130" orientation="s" y="89"/>
+                                    <terminal x="170" orientation="s" y="89"/>
+                                    <terminal x="200" orientation="s" y="89"/>
+                                    <terminal x="46" orientation="n" y="-10"/>
+                                    <terminal x="46" orientation="s" y="89"/>
+                                    <terminal x="110" orientation="n" y="-10"/>
+                                    <terminal x="180" orientation="n" y="-10"/>
+                                </description>
+                            </definition>
+                        </element>
+                    </category>
+                </category>
+            </category>
+            <category name="20_logic">
+                <names>
+                    <name lang="cs">Logika</name>
+                    <name lang="fr">Logique</name>
+                    <name lang="de">Logik</name>
+                    <name lang="en">Logic</name>
+                    <name lang="nl">Logica</name>
+                    <name lang="ru">Логика</name>
+                    <name lang="el">Λογικά κυκλώματα</name>
+                    <name lang="it">Logica</name>
+                    <name lang="pl">Programowanie</name>
+                </names>
+                <category name="30_ladder">
+                    <names>
+                        <name lang="es">Escalera</name>
+                        <name lang="cs">Žebříkové schéma</name>
+                        <name lang="fr">Ladder</name>
+                        <name lang="pt">Ladder</name>
+                        <name lang="de">Kontaktplan (KOP)</name>
+                        <name lang="ar">المخطط السلمي Ladder</name>
+                        <name lang="en">Ladder</name>
+                        <name lang="ru">Лестничная логика (LADDER)</name>
+                        <name lang="nl">Ladder Diagram (KOP)</name>
+                        <name lang="el">Διάγραμμα επαφών (Ladder)</name>
+                        <name lang="be">Ladder (KOP)</name>
+                        <name lang="it">Ladder</name>
+                        <name lang="pl">Schemat drabinkowy (LD)</name>
+                    </names>
+                    <category name="21_outputs">
+                        <names>
+                            <name lang="es">Salidas</name>
+                            <name lang="cs">Výstupy</name>
+                            <name lang="fr">Sorties</name>
+                            <name lang="pt">Saídas</name>
+                            <name lang="de">Ausgänge</name>
+                            <name lang="en">Outputs</name>
+                            <name lang="ar">مخارج</name>
+                            <name lang="ru">Выходы</name>
+                            <name lang="nl">Uitgangen</name>
+                            <name lang="el">Έξοδοι</name>
+                            <name lang="be">Uitgangen</name>
+                            <name lang="it">Uscite</name>
+                            <name lang="pl">Wyjścia</name>
+                        </names>
+                        <element name="sortie.elmt">
+                            <definition width="60" type="element" link_type="simple" hotspot_x="31" version="0.5" hotspot_y="10" orientation="dyyy" height="20">
+                                <uuid uuid="{06e608c9-7758-4f98-8105-bc2a8df0eabb}"/>
+                                <names>
+                                    <name lang="de">Ausgang</name>
+                                    <name lang="el">Έξοδος</name>
+                                    <name lang="fr">Sortie</name>
+                                    <name lang="cs">Výstup</name>
+                                    <name lang="ru">Выход</name>
+                                    <name lang="es">Salida</name>
+                                    <name lang="ar">خرج</name>
+                                    <name lang="it">Uscita</name>
+                                    <name lang="pl">Wyjście</name>
+                                    <name lang="en">Output</name>
+                                    <name lang="pt">Saída</name>
+                                    <name lang="nl">Uitgang</name>
+                                </names>
+                                <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                <description>
+                                    <arc antialias="true" width="4" angle="-160" style="line-style:normal;line-weight:normal;filling:none;color:black" x="6" start="80" height="10" y="-5"/>
+                                    <input text="_" size="9" rotate="true" x="-23" tagg="label" y="-10.5"/>
+                                    <arc antialias="true" width="4" angle="-160" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" start="-100" height="10" y="-5"/>
+                                    <line end2="none" antialias="false" x2="24" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" length1="1.5" end1="none" y1="0" y2="0" x1="10"/>
+                                    <line end2="none" antialias="false" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" length1="1.5" end1="none" y1="0" y2="0" x1="-24"/>
+                                    <terminal x="-24" orientation="w" y="0"/>
+                                </description>
+                            </definition>
+                        </element>
+                    </category>
+                </category>
+            </category>
+        </category>
+    </collection>
+</project>
