@@ -7,6 +7,8 @@ This script has both a watcher and a worker subprocess. The watcher checks if th
 
 Overwatering (flooding) scenarios have to be considered better.
 
+Please use [QElectroTech](https://qelectrotech.org/) to view and edit the schematic.
+
 ## Future improvements
 
 0. Stability, testing.
